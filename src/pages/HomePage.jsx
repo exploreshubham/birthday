@@ -14,9 +14,9 @@ const ProposePage = () => {
       </div>
 
       {/* Propose Section */}
-      <Link
+      {/* <Link
         to="/propose2"
-      >
+      > */}
       <div className="bg-[rgb(246,207,214)] h-36 w-96 rounded-3xl flex items-center justify-center mt-12">
         <h1 className="text-center text-2xl font-semibold">
           <span className="text-3xl">&#128149;</span>
@@ -25,7 +25,7 @@ const ProposePage = () => {
           </p>
         </h1>
       </div>
-      </Link>
+      {/* </Link> */}
     </div>
   );
 };
