@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Add this in your index.css or a global stylesheet */
+@keyframes rotating {
+    from {
+      transform: perspective(1000px) rotateX(-15deg) rotateY(0);
+    }
+    to {
+      transform: perspective(1000px) rotateX(-15deg) rotateY(1turn);
+    }
+  }
+  
+  .card {
+    border: 2px solid;
+    border-radius: 12px;
+    overflow: hidden;
+    transform-origin: center;
+  }
+  
+  .animate-rotating {
+    animation: rotating 20s linear infinite;
+  }
+  
