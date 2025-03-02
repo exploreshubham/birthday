@@ -6,18 +6,17 @@ import Propose4Page from './pages/Propose4Page';
 
 function App() {
   return (
-    <HomePage/>
-    // <Router>
-    //   <div>
-    //     {/* Define Routes */}
-    //     <Routes>
-    //       <Route path="/" element={<HomePage />} /> {/* HomePage route */}
-    //       <Route path="/propose2" element={<Propose2Page />} /> {/* Propose2Page route */}
-    //       <Route path="/propose3" element={<Propose3Page />} /> {/* Propose3Page route */}
-    //       <Route path="/propose4" element={<Propose4Page />} /> {/* Propose4Page route */}
-    //     </Routes>
-    //   </div>
-    // </Router>
+    <Router>
+      <div>
+        {/* Define Routes */}
+        <Routes>
+          <Route path="/" element={<HomePage />} /> {/* HomePage route */}
+          <Route path="/propose2" element={<Propose2Page />} /> {/* Propose2Page route */}
+          <Route path="/propose3" element={<Propose3Page />} /> {/* Propose3Page route */}
+          <Route path="/propose4" element={<Propose4Page />} /> {/* Propose4Page route */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
