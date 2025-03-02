@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const ProposePage = () => {
+  console.log("Home Chala");
+
   return (
     <div className="bg-pink-300 min-h-screen flex flex-col items-center">
       {/* Emoji Section */}

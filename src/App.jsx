@@ -5,6 +5,7 @@ import Propose3Page from './pages/Propose3Page';
 import Propose4Page from './pages/Propose4Page';
 
 function App() {
+  console.log("App chala");
   return (
     <Router>
       <div>
