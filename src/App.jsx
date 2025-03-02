@@ -7,6 +7,7 @@ import Propose4Page from './pages/Propose4Page';
 function App() {
   console.log("App chala");
   return (
+    // <HomePage/>
     <Router>
       <div>
         {/* Define Routes */}
